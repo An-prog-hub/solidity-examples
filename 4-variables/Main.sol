@@ -13,7 +13,7 @@ contract Variables {
     string public text = "Ankush";
     uint256 public number = 10;
 
-    function doSomething() view public {
+    function doSomething() public view {
         // Local variables are not saved on the blockchain
         uint256 x = 10;
     }
