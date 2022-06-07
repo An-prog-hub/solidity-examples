@@ -6,7 +6,7 @@ contract Immutable {
     address public immutable MY_ADDRESS;
     uint256 public immutable MY_NUMBER;
 
-    constructor(uint256 _myNumber) public {
+    constructor(uint256 _myNumber) {
         MY_ADDRESS = msg.sender;
         MY_NUMBER = _myNumber;
     }
